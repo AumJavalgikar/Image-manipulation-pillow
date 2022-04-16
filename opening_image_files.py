@@ -1,8 +1,8 @@
 from PIL import Image
 
-catImageObj = Image.open('images/zophie.png')
+catImageObj = Image.open('images/heisenberg.jpg')
 imagewidth, imageheight = catImageObj.size
 imageFormat = catImageObj.format
 imageFormatDesc = catImageObj.format_description
-catImageObj.save('images/zophie.jpg')
+catImageObj.save('images/heisenberg.png')
 catImageObj.close()
